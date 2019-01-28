@@ -1,6 +1,7 @@
 # mycode (Hamboning)
 
 CTL class for Python/Ansible
+I want version control for any of my coding work, plz.
 
 ## Getting Started
 
