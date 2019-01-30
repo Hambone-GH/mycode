@@ -1,0 +1,17 @@
+#!usr/bin/env python3
+---
+  name: Our first playbook
+  hosts: futurama
+
+  tasks: 
+    - name: Installing vidya garms
+      apt:
+	name: bastet
+	state: present
+    - name: Install figlet
+      apt:
+	name: figlet
+	state: present
+
+
+[{"name": "Our first playbook", "hosts": "futurama", "tasks": [{"name": "Installing vidya garms"},{"apt":{"name":"bastet", "State":"present"},{"name":"Install figlet", "apt":{"name":"figlet", "state":"present"}}}}]]]
