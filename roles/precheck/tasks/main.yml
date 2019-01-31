@@ -1,4 +1,3 @@
----
 # tasks file for /home/student/mycode/roles/precheck
 # if we run this and have gather_facts set to no, then ansible_facts will be about our network devs
 - name: Harvest Arista facts
